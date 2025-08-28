@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 12" width="8" height="12">
+	<title>arrow-blue</title>
+	<style>
+		.s0 { fill: #3d5641;stroke: #023047;stroke-width: 2 } 
+	</style>
+	<path class="s0" d="m1 1l5 5-5 5"/>
+</svg>

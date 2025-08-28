@@ -1,0 +1,2473 @@
+/************************************/
+/***    Homepage css      ***/
+/************************************/
+.read-more-box {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* show only 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.expanded {
+  -webkit-line-clamp: unset;
+}
+
+.read-more-toggle {
+  color: #3d5641;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.modal-content {
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  padding: 20px;
+}
+
+/************************************/
+/***    wellness css      ***/
+/************************************/
+
+/* section 1 */
+.wellness-page-header {
+  background: var(--primary-color) url(../images/sort/wellness/2.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.wellness-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.wellness-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.wellness-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 15px;
+}
+
+.wellness-page-header-box p {
+  color: #fff;
+}
+
+.wellness-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.wellness-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.wellness-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.wellness-page-header-box ol li.breadcrumb-item a {
+  color: #8e9174;
+}
+
+.wellness-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/* section 2 */
+.wellness {
+  background: var(--white-color);
+  padding: 100px 0;
+}
+
+.wellness-list {
+  border-top: 1px solid var(--divider-color);
+  padding-top: 40px;
+}
+
+.approach-item-content h3 {
+  font-size: 22px;
+}
+
+.wellness-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 35px;
+}
+
+.wellness-item::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--accent-color);
+  display: inline-block;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  left: 0;
+}
+
+.wellness-item:last-child {
+  margin-bottom: 0;
+}
+
+.wellness-image {
+  position: relative;
+  padding: 0 0 100px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.wellness-img-1 figure,
+.wellness-img-2 figure,
+.wellness-img-1 img,
+.wellness-img-2 img {
+  display: block;
+  border-radius: 20px;
+}
+
+.wellness-img-1 img {
+  width: 100%;
+  aspect-ratio: 1 / 1.04;
+  object-fit: cover;
+}
+
+.wellness-img-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 525px;
+}
+
+.wellness-img-2 img {
+  width: 100%;
+  aspect-ratio: 1 / 0.6;
+  object-fit: cover;
+}
+
+/* section 3 */
+
+.wellness-services {
+  background: var(--primary-color);
+  padding: 100px 0;
+}
+
+.wellness-services h2 {
+  color: var(--accent-color);
+}
+
+.wellness-services h3 {
+  color: #ffffff;
+}
+
+.wellness-service-item {
+  position: relative;
+  border-radius: 20px;
+  height: calc(100% - 30px);
+  /* margin-bottom: 30px; */
+  overflow: hidden;
+}
+
+.wellness-service-image a {
+  position: relative;
+  display: block;
+  cursor: none;
+}
+
+.wellness-service-image a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
+  background: var(--text-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.wellness-service-image img {
+  aspect-ratio: 1 / 0.97;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+.wellness-service-item:hover .wellness-service-image img {
+  transform: scale(1.1);
+}
+
+.wellness-service-content {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  z-index: 2;
+}
+
+.wellness-service-content h3 {
+  font-size: 22px;
+  color: var(--white-color);
+}
+
+.wellness-service-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  z-index: 2;
+}
+
+.wellness-service-btn .readmore-btn {
+  display: block;
+  color: var(--white-color);
+}
+
+.wellness-service-btn .readmore-btn:hover {
+  color: var(--white-color);
+}
+
+.wellness-service-btn .readmore-btn::before {
+  filter: brightness(0) invert(1);
+}
+
+.wellness-service-content .hover-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.wellness-service-item:hover .hover-content {
+  opacity: 1;
+  max-height: 100%;
+  color: #fff;
+}
+
+.readmore-btn {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--accent-color);
+  padding-right: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.readmore-btn:hover {
+  color: var(--primary-color);
+}
+
+.readmore-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 0;
+  transform: translateY(-50%);
+  /* background: url('../images/arrow-readmore-btn.svg') no-repeat; */
+  background-position: right center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.readmore-btn:hover:before {
+  filter: brightness(0) invert(0);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+}
+
+/* section 4 */
+
+.wellness-our-benefit {
+	background: var(--white-color);
+	padding: 100px 0;
+}
+
+.wellness-our-benefit-btn {
+	margin-bottom: 60px;
+}
+
+.wellness-our-benefit-img figure {
+	display: block;
+	border-radius: 20px;
+}
+
+.wellness-our-benefit-img img {
+	width: 100%;
+	aspect-ratio: 1 / 0.6;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.wellness-our-benefit-box {
+	margin-left: 15px;
+}
+
+.wellness-benefit-box-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	border-bottom: 1px solid var(--divider-color);
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.wellness-our-benefit-item {
+	position: relative;
+	width: calc(50% - 15px);
+	background: var(--white-color);
+	border-radius: 20px;
+	padding: 30px 20px;
+	overflow: hidden;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.wellness-our-benefit-item::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--primary-color);
+	transition: all 0.4s ease-in-out;
+	z-index: 0;
+}
+
+.wellness-our-benefit-item:hover::after {
+	top: 0;
+}
+
+.wellness-our-benefit-item .icon-box {
+	position: relative;
+	background: var(--primary-color);
+	border-radius: 8px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+	z-index: 1;
+}
+
+.wellness-our-benefit-item .icon-box::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: var(--secondary-color);
+	border-radius: 8px;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	transition: all 0.4s ease-in-out;
+	z-index: 1;
+}
+
+.wellness-our-benefit-item:hover .icon-box:after {
+	transform: scale(1);
+}
+
+.wellness-our-benefit-item .icon-box img {
+	position: relative;
+	max-width: 24px;
+	transition: all 0.4s ease-in-out;
+	z-index: 2;
+}
+
+.wellness-our-benefit-item:hover .icon-box img {
+	filter: invert(1);
+}
+
+.wellness-benefit-item-content {
+	position: relative;
+	z-index: 1;
+}
+
+.wellness-benefit-item-content h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	transition: all 0.4s ease-in-out;
+}
+
+.wellness-benefit-item-content p {
+	margin: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+.wellness-our-benefit-item:hover .wellness-benefit-item-content h3{
+	color: var(--accent-color);
+}
+.wellness-our-benefit-item:hover .wellness-benefit-item-content p {
+	color: var(--white-color);
+}
+
+
+.wellness-our-benefit-list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 30px;
+}
+
+.wellness-our-benefit-list ul li {
+	position: relative;
+	width: calc(50% - 15px);
+	color: var(--primary-color);
+	text-transform: capitalize;
+	padding-left: 30px;
+}
+
+.wellness-our-benefit-list ul li:after {
+	content: '\f058';
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 400;
+	font-size: 20px;
+	color: var(--accent-color);
+	display: inline-block;
+	line-height: normal;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+/* section 5 */
+
+.wellness-process-steps {
+  background: var(--secondary-color);
+  background-repeat: no-repeat;
+  background-position: bottom 160px center;
+  background-size: contain;
+  padding: 100px 0 150px;
+  z-index: 2;
+}
+
+.wellness-process-steps .section-title {
+  text-align: center;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.wellness-process-steps-line {
+  padding-top: 0px;
+}
+
+.wellness-process-step-box {
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.wellness-process-steps
+  .col-lg-3:nth-last-child(even)
+  .wellness-process-step-box {
+  margin-top: 50px;
+}
+
+.wellness-process-step-no {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.wellness-process-step-no h2 {
+  font-family: var(--default-font);
+  font-size: 114px;
+  font-weight: 600;
+  background-image: linear-gradient(
+    180deg,
+    #dddddd 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wellness-process-step-content {
+  position: relative;
+  z-index: 1;
+}
+
+.wellness-process-step-content h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.wellness-process-step-content p {
+  margin: 0;
+}
+
+/************************************/
+/***  Cryotherapy css	 ***/
+/************************************/
+/* section 1 */
+.cryotherapy-page-header {
+  background: var(--primary-color)
+    url(../images/inner/cryotherapy/crytherapy-banner.webp)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.cryotherapy-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.cryotherapy-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.cryotherapy-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.cryotherapy-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.cryotherapy-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.cryotherapy-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.cryotherapy-page-header-box ol li.breadcrumb-item a {
+  color: #22170d;
+}
+
+.cryotherapy-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/************************************/
+/***  Main Service Page css	 ***/
+/************************************/
+
+/* section 1 */
+
+.mainservice-page-header {
+  background: var(--primary-color) url(../images/services/page-header-bg.jpg)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.mainservice-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.mainservice-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/spa-complements_23-2147645728.jpg?t=st=1739517200~exp=1739520800~hmac=1503afd10b242695fa46475181b7844bc6c315baeaede8d9db38f66f4e649641&w=740)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.mainservice-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.mainservice-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.mainservice-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.mainservice-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.mainservice-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.mainservice-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.mainservice-page-header-box ol li.breadcrumb-item a {
+  color: #8e9174;
+}
+
+.mainservice-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/* section 2 */
+
+.mainhbot-services {
+  position: relative;
+  background: var(--white-color);
+  padding: 100px 0 120px;
+  z-index: 1;
+}
+
+.mainhbot-services .section-title {
+  text-align: center;
+}
+
+.mainhbot-services-item {
+  position: relative;
+  border-radius: 10px;
+  height: calc(100% - 30px);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.mainhbot-services-image a {
+  position: relative;
+  display: block;
+}
+
+.mainhbot-services-image a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    179.94deg,
+    rgba(0, 0, 0, 0.9) 0.05%,
+    rgba(0, 0, 0, 0) 45%
+  );
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.mainhbot-services-image img {
+  aspect-ratio: 1 / 1.28;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.mainhbot-services-item:hover .mainhbot-services-image img {
+  transform: scale(1.1);
+}
+
+.mainhbot-services-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  z-index: 1;
+}
+
+.mainhbot-services-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.mainhbot-services-btn {
+  margin-right: 20px;
+}
+
+.mainhbot-services-btn a {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mainhbot-services-btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: var(--white-color);
+  opacity: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.mainhbot-services-btn a img {
+  max-width: 20px;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.mainhbot-services-item:hover .mainhbot-services-btn a img {
+  transform: rotate(0deg);
+}
+
+.mainhbot-services-title {
+  width: calc(100% - 70px);
+}
+
+.mainhbot-services-title h3 {
+  font-size: 26px;
+  text-transform: capitalize;
+  color: var(--white-color);
+}
+
+.mainhbot-services-dec p {
+  color: var(--white-color);
+  margin: 0;
+}
+
+.mainhbot-services-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  z-index: 1;
+}
+
+.mainhbot-services-list {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+.mainhbot-services-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: var(--white-color);
+  opacity: 20%;
+  height: 100%;
+  width: 100%;
+}
+
+.mainhbot-services-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainhbot-services-list ul li {
+  position: relative;
+  color: var(--white-color);
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.mainhbot-services-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.mainhbot-services-list ul li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: url(../images/icon-pricing-list.svg) no-repeat;
+  background-position: left center;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+}
+
+/* section 3 */
+
+.prana-expertise {
+  background-color: var(--white-color);
+  padding: 100px 0 120px;
+}
+
+.prana-expertise-item {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 40px 30px;
+}
+
+.prana-expertise-item .icon-box {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.prana-expertise-item .icon-box::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.prana-expertise-item .icon-box img {
+  position: relative;
+  max-width: 50px;
+  z-index: 1;
+}
+
+.prana-expertise-content h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: var(--white-color);
+}
+
+.prana-expertise-content p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--white-color);
+}
+
+/************************************/
+/***  Main Service Inner Page css	 ***/
+/************************************/
+
+.holistic-health {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/young-female-workout-before-fitness-training-session-park_23-2148066883.jpg?t=st=1739362545~exp=1739366145~hmac=496236eb7916d646c5f355a244681e59a2b2920230a9befbce09d22614034437&w=740)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.holistic-health::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.holistic-health-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.holistic-health-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.holistic-health-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.holistic-health-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.holistic-health-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.holistic-health-header-box ol li.breadcrumb-item a {
+  color: #8e9174;
+}
+
+.holistic-health-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+.page-header.service-single-page-header::after {
+  background-image: url("../images/page-header-bg-shape-3.svg");
+}
+
+.page-service-single {
+  background-color: var(--white-color);
+  padding: 100px 0 80px;
+}
+
+.service-sidebar {
+  position: sticky;
+  top: 20px;
+}
+
+.service-catagery-list {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.service-catagery-list h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.service-catagery-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.service-catagery-list ul li {
+  margin-bottom: 20px;
+}
+
+.service-catagery-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.service-catagery-list ul li {
+  display: block;
+  position: relative;
+  font-family: var(--default-font);
+  text-transform: capitalize;
+  background-color: var(--white-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  line-height: normal;
+  padding: 20px 40px 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-catagery-list ul li:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.service-catagery-list ul li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(-20px, -50%);
+  background-image: url("../images/arrow-blue-readmore-btn.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-catagery-list ul li:hover::after {
+  filter: brightness(0) invert(1);
+}
+
+.working-hours {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.working-hours h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.working-hours ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.working-hours ul li {
+  margin-bottom: 20px;
+}
+
+.working-hours ul li:last-child {
+  margin-bottom: 0;
+}
+
+.working-hours ul li a {
+  display: block;
+  position: relative;
+  font-family: var(--accent-font);
+  text-transform: capitalize;
+  background-color: var(--white-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  line-height: normal;
+  padding: 20px 20px 20px 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.working-hours ul li:hover a {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.working-hours ul li a::after {
+  content: "\f017";
+  font-family: "FontAwesome";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(20px, -50%);
+  font-size: 20px;
+  color: var(--primary-color);
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.working-hours ul li:hover a::after {
+  color: var(--white-color);
+}
+
+.working-hours-btn {
+  margin-top: 20px;
+}
+
+.working-hours-btn .btn-default {
+  background: var(--white-color);
+  width: 100%;
+}
+
+.working-hours-btn .btn-default span {
+  text-align: center;
+  width: 100%;
+}
+
+.sidebar-cta-box {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sidebar-cta-image {
+  position: relative;
+}
+
+.sidebar-cta-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  opacity: 70%;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar-cta-image img {
+  width: 100%;
+  aspect-ratio: 1 / 1.01;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sidebar-cta-item {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.sidebar-cta-item .icon-box {
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sidebar-cta-item .icon-box figure {
+  position: relative;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sidebar-cta-item .icon-box figure::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--white-color);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.sidebar-cta-item:hover .icon-box figure::before {
+  transform: scale(1);
+}
+
+.sidebar-cta-item .icon-box figure img {
+  position: relative;
+  max-width: 36px;
+  z-index: 1;
+}
+
+.sidebar-cta-content {
+  text-align: center;
+}
+
+.sidebar-cta-content h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: var(--white-color);
+  margin-bottom: 15px;
+}
+
+.sidebar-cta-content p {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--white-color);
+  margin: 0;
+}
+
+.service-single-image {
+  margin-bottom: 30px;
+}
+
+.service-single-image img {
+  border-radius: 10px;
+  aspect-ratio: 1 / 0.55;
+  object-fit: cover;
+}
+
+.service-entry {
+  margin-bottom: 40px;
+}
+
+.service-entry h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+/* .service-entry h3 {
+	font-size: 20px;
+	margin-bottom: 25px;
+} */
+
+.service-entry p {
+  margin-bottom: 20px;
+}
+
+/* .service-entry p:last-child {
+	margin-bottom: 0px;
+} */
+
+.service-entry ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.service-entry ul li {
+  position: relative;
+  width: calc(50% - 10px);
+  color: var(--primary-color);
+  font-size: 16px;
+  /* text-transform: capitalize; */
+  padding-left: 30px;
+}
+
+.service-entry ul li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: var(--primary-color) url(../images/arrow-white.svg) no-repeat;
+  background-position: center center;
+  background-size: 8px auto;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.service-entry-img-1 figure,
+.service-entry-img-2 figure {
+  display: block;
+}
+
+.service-entry-img-1 img,
+.service-entry-img-2 img {
+  aspect-ratio: 1 / 1.01;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-faq-section.our-faqs-section .accordion-item .accordion-body {
+  background-color: var(--secondary-color);
+}
+
+.about-faq-section.our-faqs-section .accordion-item .accordion-body p {
+  color: var(--text-color);
+}
+
+.about-faq-section.our-faqs-section .accordion-item .accordion-button::after,
+.about-faq-section.our-faqs-section
+  .accordion-item
+  .accordion-button.collapsed::after {
+  content: "\f062";
+}
+
+/************************************/
+/***    Photobiomodulation css      ***/
+/************************************/
+
+/* section 1 */
+.photobiomodulation-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/caucasian-woman-going-through-microblading-treatment_23-2149102677.jpg?t=st=1744715748~exp=1744719348~hmac=0febe18cda0cc08a3d7af8d8881fbfac2413c13905cb7e73f533a535c95ee46e&w=996)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.photobiomodulation-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.photobiomodulation-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.photobiomodulation-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.photobiomodulation-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.photobiomodulation-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.photobiomodulation-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.photobiomodulation-page-header-box ol li.breadcrumb-item a {
+  color: #22170d;
+}
+
+.photobiomodulation-page-header-box
+  ol
+  .breadcrumb-item
+  + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/************************************/
+/***    ivtherapy css      ***/
+/************************************/
+
+/* section 1 */
+.ivtherapy-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/premium-photo/close-up-man-holding-hands_1048944-13979911.jpg?w=996)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.ivtherapy-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.ivtherapy-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.ivtherapy-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.ivtherapy-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.ivtherapy-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.ivtherapy-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.ivtherapy-page-header-box ol li.breadcrumb-item a {
+  color: #8e9174;
+}
+
+.ivtherapy-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/************************************/
+/***    FAQ css      ***/
+/************************************/
+
+/* section 1 */
+.faq-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/question-mark-query-information-support-service-graphic_53876-127470.jpg?t=st=1744716912~exp=1744720512~hmac=5dcc193b691aeebd86b3af3ec3620a4455155761d700ed1cf50c95483715e7c7&w=996)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.faq-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.faq-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.faq-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.faq-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.faq-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.faq-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.faq-page-header-box ol li.breadcrumb-item a {
+  color: #8e9174;
+}
+
+.faq-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/************************************/
+/***    transformative css      ***/
+/************************************/
+
+/* section 1 */
+.transformative-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/premium-photo/portrait-middle-eastern-businesswoman-talking-colleague-while-discussing-project-modern-office-interior-copy-space_236854-29970.jpg?w=996)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.transformative-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.transformative-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.transformative-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 15px;
+}
+
+.transformative-page-header-box p {
+  color: #fff;
+}
+
+.therapy1 {
+  background: var(--white-color);
+  padding: 100px 0 80px;
+}
+
+.therapy1 .therapy1-image figure {
+  width: 100%;
+}
+
+.therapy1-header {
+  margin-bottom: 30px;
+}
+
+.therapy1-header .therapy1-title h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.therapy1-list-content h4 {
+  margin-bottom: 15px;
+}
+
+.therapy2 {
+  background: var(--secondary-color);
+  padding: 80px 0 80px;
+}
+
+.therapy2 .therapy2-image figure {
+  width: 100%;
+}
+
+.therapy2-header {
+  margin-bottom: 30px;
+}
+
+.therapy2-header .therapy2-title h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.therapy2-list-content h4 {
+  margin-bottom: 15px;
+}
+
+.package-container {
+  background: #3d5641;
+  padding: 25px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.package-details h4 {
+  color: var(--accent-color);
+}
+
+.read-more-content li:nth-child(n + 3) {
+  display: none;
+}
+
+.read-more-content.expanded li {
+  display: list-item;
+}
+
+/************************************/
+/***  NeuroRehab  css	 ***/
+/************************************/
+/* section 1 */
+.NeuroRehab-page-header {
+  background: var(--primary-color)
+    url(../images/inner/neurorehab/neurorehab-banner.webp)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.NeuroRehab-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.NeuroRehab-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.NeuroRehab-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.NeuroRehab-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.NeuroRehab-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.NeuroRehab-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.NeuroRehab-page-header-box ol li.breadcrumb-item a {
+  color: #22170d;
+}
+
+.NeuroRehab-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/************************************/
+/***  curative-hyperbaric  css	 ***/
+/************************************/
+
+/* section 1 */
+.curative-hyperbaric-page-header {
+  background: var(--primary-color) url(../images/sort/curative-hyperbaric/curative-hyperbaric-banner.webp) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.curative-hyperbaric-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.curative-hyperbaric-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.curative-hyperbaric-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.curative-hyperbaric-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.curative-hyperbaric-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.curative-hyperbaric-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.curative-hyperbaric-page-header-box ol li.breadcrumb-item a {
+  color: #22170d;
+}
+
+.curative-hyperbaric-page-header-box
+  ol
+  .breadcrumb-item
+  + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/************************************/
+/***  holistic neutrition  css	 ***/
+/************************************/
+
+/* section 1 */
+.holistic-neutrition-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/bowl-plate-filled-with-sand-leaves-copy-space_23-2148724078.jpg?t=st=1746175545~exp=1746179145~hmac=998b53349261a5a98622476543bbb6ee4dd40492665df15b22265710ead387b8&w=1380)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.holistic-neutrition-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.holistic-neutrition-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.holistic-neutrition-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.curative-hyperbaric-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.holistic-neutrition-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.holistic-neutrition-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.holistic-neutrition-page-header-box ol li.breadcrumb-item a {
+  color: #8e9174;
+}
+
+.holistic-neutrition-page-header-box
+  ol
+  .breadcrumb-item
+  + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+.holistic-neutrition-page-header-box p {
+  color: #fff;
+}
+
+/************************************/
+/***  hbot  css	 ***/
+/************************************/
+
+/* section 1 */
+.hbot-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/premium-photo/hyperbaric-chamber-treatment-recovery-body-by-supplying-pure-oxygen_74907-244.jpg?w=996)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.hbot-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.hbot-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.hbot-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.hbot-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.hbot-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.hbot-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.hbot-page-header-box ol li.breadcrumb-item a {
+  color: #22170d;
+}
+
+.hbot-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+.hbot-page-header-box p {
+  color: #fff;
+}
+
+.card-text {
+  color: var(--text-color);
+  text-transform: none;
+}
+
+/************************************/
+/***  PEMF-negative-ion-therapy  css	 ***/
+/************************************/
+
+/* section 1 */
+.negative-ion-page-header {
+  background: var(--primary-color)
+    url(../images/inner/PEMF/pemf-banner.webp)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.negative-ion-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.negative-ion-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.negative-ion-page-header-box h1 {
+  display: inline-block;
+  font-size: 66px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.negative-ion-page-header-box ol {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.negative-ion-page-header-box ol li.breadcrumb-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+
+.negative-ion-page-header-box ol li.breadcrumb-item.active {
+  color: var(--secondary-color);
+}
+
+.negative-ion-page-header-box ol li.breadcrumb-item a {
+  color: #22170d;
+}
+
+.negative-ion-page-header-box ol .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f111";
+  font-family: "FontAwesome";
+  font-size: 8px;
+  color: #fff;
+}
+
+/* Sticky button */
+
+.call-buton .cc-calto-action-ripple {
+  z-index: 99999;
+  position: fixed;
+  right: 1rem;
+  bottom: 15rem;
+  background: var(--text-color-hover);
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ffffff;
+  -webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+  animation: cc-calto-action-ripple 0.6s linear infinite;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.call-buton .cc-calto-action-ripple i {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 22px;
+}
+
+.call-buton .cc-calto-action-ripple:hover i {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+@-webkit-keyframes cc-calto-action-ripple {
+  0% {
+    -webkit-box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 0 rgba(185, 145, 120, 0.4), 0 0 0 5px rgba(185, 145, 120, 0.4),
+      0 0 0 10px rgba(185, 145, 120, 0.4);
+    box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 0 rgba(185, 145, 120, 0.4), 0 0 0 5px rgba(185, 145, 120, 0.4),
+      0 0 0 10px rgba(185, 145, 120, 0.4);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 5px rgba(185, 145, 120, 0.4), 0 0 0 10px rgba(185, 145, 120, 0.4),
+      0 0 0 20px rgba(185, 145, 120, 0);
+    box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 5px rgba(185, 145, 120, 0.4), 0 0 0 10px rgba(185, 145, 120, 0.4),
+      0 0 0 20px rgba(185, 145, 120, 0);
+  }
+}
+
+@keyframes cc-calto-action-ripple {
+  0% {
+    -webkit-box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 0 rgba(185, 145, 120, 0.4), 0 0 0 5px rgba(185, 145, 120, 0.4),
+      0 0 0 10px rgba(185, 145, 120, 0.4);
+    box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 0 rgba(185, 145, 120, 0.4), 0 0 0 5px rgba(185, 145, 120, 0.4),
+      0 0 0 10px rgba(185, 145, 120, 0.4);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 5px rgba(185, 145, 120, 0.4), 0 0 0 10px rgba(185, 145, 120, 0.4),
+      0 0 0 20px rgba(185, 145, 120, 0);
+    box-shadow: 0 4px 10px rgba(185, 145, 120, 0.4),
+      0 0 0 5px rgba(185, 145, 120, 0.4), 0 0 0 10px rgba(185, 145, 120, 0.4),
+      0 0 0 20px rgba(185, 145, 120, 0);
+  }
+}
+
+/* Blog1 Blog2 */
+
+/* revolutionizing-healing -therapy */
+
+.synerging-hyperbaric-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/doctor-helping-patient-rehabilitation_23-2150321632.jpg?t=st=1739171094~exp=1739174694~hmac=15db3a40594ea1f9e5ee11585d9b26a0c381a126e0178e71a372205fbeafc4c2&w=740)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.synerging-hyperbaric-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.synerging-hyperbaric-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.synerging-hyperbaric-page-header-box h1 {
+  display: inline-block;
+  font-size: 50px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+/* synerging-hyperbaric-therapy */
+
+.revolutionizing-healing-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/nurse-putting-oxygen-mask-patient_23-2149372303.jpg?t=st=1739171540~exp=1739175140~hmac=93db6b64ae8b4e1f74a5c856b06c829fde9788ac9cbf82731ef5dc78d2d36241&w=740)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.revolutionizing-healing-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.revolutionizing-healing-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.revolutionizing-healing-page-header-box h1 {
+  display: inline-block;
+  font-size: 50px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+/* neurorehabilitation-restoring */
+
+.neurorehabilitation-restoring-page-header {
+  background: var(--primary-color)
+    url(https://img.freepik.com/free-photo/woman-rehabilitation-center-getting-treatment_23-2150356706.jpg?t=st=1739171684~exp=1739175284~hmac=5092ef0e8e72b643cf565a0c82e45223638f3da7b52e9f612d490d8d41887144&w=740)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 220px 0;
+  margin-top: -100px;
+}
+
+.neurorehabilitation-restoring-page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--black-color);
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.neurorehabilitation-restoring-page-header-box {
+  position: relative;
+  text-align: left;
+  z-index: 1;
+}
+
+.neurorehabilitation-restoring-page-header-box h1 {
+  display: inline-block;
+  font-size: 50px;
+  color: var(--white-color);
+  margin-bottom: 5px;
+}
+
+.longevity-section {
+  background: var(--white-color);
+  padding: 100px 0;
+}
+.longevity-left-section {
+  background: var(--primary-color);
+  border-radius: 10px;
+  padding: 35px;
+}
+.longevity-right-section {
+  /* background: var(--primary-color); */
+  border-radius: 10px;
+  padding: 35px;
+  border: 1px solid #ddd;
+}
+.longevity-left-section .section-title h3 {
+  font-family: var(--accent-font);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-transform: none;
+  margin-bottom: 15px;
+}
+.longevity-left-section .section-title p {
+  color: #fff;
+}
+
+.longevity-right-section .section-title h3 {
+  font-family: var(--accent-font);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-transform: none;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.holistic-neutrition {
+	background: var(--white-color);
+	padding: 100px 0;
+}
+
+.wellness-our-benefit-btn {
+	margin-bottom: 60px;
+}
+
+.wellness-our-benefit-img figure {
+	display: block;
+	border-radius: 20px;
+}
+
+.wellness-our-benefit-img img {
+	width: 100%;
+	aspect-ratio: 1 / 0.6;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.wellness-our-benefit-box {
+	margin-left: 15px;
+}
+
+.wellness-benefit-box-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	border-bottom: 1px solid var(--divider-color);
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.holistic-neutrition-item {
+	position: relative;
+	background: var(--white-color);
+	border-radius: 20px;
+	padding: 30px 20px;
+	overflow: hidden;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.holistic-neutrition-item::after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--primary-color);
+	transition: all 0.4s ease-in-out;
+	z-index: 0;
+}
+
+.holistic-neutrition-item:hover::after {
+	top: 0;
+}
+
+.holistic-neutrition-item .icon-box {
+	position: relative;
+	background: var(--primary-color);
+	border-radius: 8px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+	z-index: 1;
+}
+
+.holistic-neutrition-item .icon-box::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: var(--secondary-color);
+	border-radius: 8px;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	transition: all 0.4s ease-in-out;
+	z-index: 1;
+}
+
+.holistic-neutrition-item:hover .icon-box:after {
+	transform: scale(1);
+}
+
+.holistic-neutrition-item .icon-box img {
+	position: relative;
+	max-width: 24px;
+	transition: all 0.4s ease-in-out;
+	z-index: 2;
+}
+
+.holistic-neutrition-item:hover .icon-box img {
+	filter: invert(1);
+}
+
+.wellness-benefit-item-content {
+	position: relative;
+	z-index: 1;
+}
+
+.wellness-benefit-item-content h3 {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	transition: all 0.4s ease-in-out;
+}
+
+.wellness-benefit-item-content p {
+	margin: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+.holistic-neutrition-item:hover .wellness-benefit-item-content h3{
+	color: var(--accent-color);
+}
+.holistic-neutrition-item:hover .wellness-benefit-item-content p {
+	color: var(--white-color);
+}
+
+
+.wellness-our-benefit-list ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 30px;
+}
+
+.wellness-our-benefit-list ul li {
+	position: relative;
+	width: calc(50% - 15px);
+	color: var(--primary-color);
+	text-transform: capitalize;
+	padding-left: 30px;
+}
+
+.wellness-our-benefit-list ul li:after {
+	content: '\f058';
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 400;
+	font-size: 20px;
+	color: var(--accent-color);
+	display: inline-block;
+	line-height: normal;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}

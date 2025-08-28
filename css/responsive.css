@@ -1,0 +1,1794 @@
+@media (min-width: 320px) and (max-width: 490px) {
+    .longevity-left-section{
+    padding: 10px;
+}
+
+.longevity-left-section .section-title p{
+    margin-bottom: 18px;
+}
+
+.longevity-right-section{
+  padding: 10px;
+}
+
+.longevity-right-section .section-title h3{
+ margin-top: 18px;
+}
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .page-service-single {
+    padding: 50px 0;
+  }
+  .service-entry h2 {
+    font-size: 30px;
+  }
+  .service-entry p {
+    margin-bottom: 15px;
+  }
+  /* Home Page  */
+  .hero-content .section-title h1 {
+    font-size: 40px;
+  }
+  video {
+    height: 200px;
+  }
+  .prana-appointment-form .form-control {
+    margin-bottom: 15px;
+  }
+  ul.infoGraphic li .content {
+    margin: 0 15px 70px 15px;
+  }
+  ul.infoGraphic li .content p {
+    font-size: 16px;
+  }
+  .prana-approach-item-title h3 {
+    margin-bottom: 10px;
+  }
+  .prana-approach-header .icon-box {
+    height: 50px;
+    width: 65px;
+  }
+  .prana-approach-header .icon-box1 {
+    height: 50px;
+    width: 80px;
+  }
+  .prana-approach-header .icon-box img {
+    width: 55%;
+  }
+  .prana-approach-image {
+    margin: 20px 0 0 0;
+  }
+  .our-testimonial::before {
+    top: -40px;
+    height: 13%;
+  }
+  .video-play-button a {
+    top: 0;
+  }
+
+  /* About us Page  */
+  .about-mainpage-header-box h1 {
+    font-size: 40px;
+  }
+  .about-mainpage-header {
+    padding: 150px 0;
+  }
+  .video-counter-item h2 {
+    font-size: 35px;
+  }
+  .video-counter-item {
+    margin-bottom: 15px;
+  }
+  .what-we-do .video-play-button a {
+    top: -60px;
+  }
+  .about-customer-box {
+    max-width: 200px;
+    padding: 10px;
+  }
+  .about-us-images {
+    margin-bottom: 25px;
+  }
+  .about-vision-mission {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .vision-mission-content {
+    width: 100%;
+  }
+  .our-approach1 {
+    padding: 0px 0 50px;
+  }
+  .our-approach-item {
+    margin-bottom: 20px;
+  }
+  .what-we-do {
+    padding: 50px 0;
+  }
+
+  /* Contact us Page  */
+  .contact-page-header-box h1 {
+    font-size: 40px;
+  }
+  .page-contact-us {
+    padding: 50px 0;
+  }
+
+  /* HBOT Page */
+  .hbot-page-header-box h1 {
+    font-size: 40px;
+  }
+  .hbot-page-header-box ol li.breadcrumb-item {
+    font-size: 8px;
+  }
+  .service-catagery-list {
+    padding: 20px;
+  }
+  .service-catagery-list h3 {
+    font-size: 30px;
+  }
+  .sidebar-cta-image {
+    margin-bottom: 25px;
+  }
+
+  /* Cryotherapy Page */
+  .cryotherapy-page-header-box h1 {
+    font-size: 40px;
+  }
+  /* Curative-Hyperbaric Page */
+  .curative-hyperbaric-page-header-box h1 {
+    font-size: 40px;
+  }
+
+  /* NeuroRehab Page */
+  .NeuroRehab-page-header-box h1 {
+    font-size: 40px;
+  }
+
+  /* Transformative-Hyperbaric Page */
+  .transformative-page-header-box h1 {
+    font-size: 40px;
+  }
+  .therapy1-header .therapy1-title h2 {
+    font-size: 30px;
+  }
+  .therapy2-header .therapy2-title h2 {
+    font-size: 30px;
+  }
+  .therapy3-header .therapy3-title h2 {
+    font-size: 30px;
+  }
+  .package-container {
+    margin-bottom: 15px;
+  }
+
+  /* Holistic-Neutrition Page */
+  .holistic-neutrition-page-header-box h1 {
+    font-size: 40px;
+  }
+  .wellness-our-benefit-item {
+    height: 515px;
+  }
+}
+
+@media (min-width: 1600px) {
+    .package-container{
+     min-height: 413px;
+    }
+  body {
+    font-size: 18px;
+  }
+  /* Home Page  */
+  .our-testimonial {
+    padding: 200px 0 150px;
+  }
+  .our-testimonial::before {
+    top: -340px;
+  }
+  .video-play-button a {
+    top: -115px;
+  }
+  .prana-milestone::after{
+    width: 390px;
+  }
+
+  /* About us */
+  .what-we-do .video-play-button a {
+    top: -60px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .our-prana-packages::before {
+    top: -270px;
+  }
+
+  .about-mainpage {
+    padding-left: 0;
+  }
+
+  .about-mainpage .container-fluid {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    padding: 20px 0px;
+  }
+
+  .main-menu ul li {
+    margin-left: 0;
+  }
+
+  .our-prana-packages::before {
+    top: -200px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #magic-cursor {
+    display: none !important;
+  }
+
+  .slicknav_nav li,
+  .slicknav_nav ul {
+    display: block;
+  }
+
+  .responsive-menu,
+  .navbar-toggle {
+    display: block;
+  }
+
+  .btn-default span {
+    font-size: 16px;
+    padding: 14px 18px;
+  }
+
+  .bg-radius-section {
+    border-radius: 30px 30px 0 0;
+  }
+
+  .section-row {
+    margin-bottom: 40px;
+  }
+
+  /* .section-title {
+    margin-bottom: 30px;
+  } */
+
+  /* .section-title h1 {
+    font-size: 56px;
+  } */
+
+  /* .section-title h2 {
+    font-size: 42px;
+  } */
+
+  .section-title p {
+    margin-top: 15px;
+  }
+
+  .section-btn {
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .section-title-content {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .topbar-contact-info ul {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .topbar-contact-info ul li a img {
+    max-width: 18px;
+    margin-right: 5px;
+  }
+
+  .topbar-social-links {
+    display: none;
+  }
+
+  .hero {
+    padding: 150px 0 100px;
+  }
+
+  .hero.hero-slider-layout .hero-slide {
+    padding: 150px 0;
+  }
+
+  .hero.hero-slider-layout .hero-pagination {
+    bottom: 80px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content .section-title p {
+    font-size: 16px;
+  }
+
+  .prana-info {
+    padding: 50px 0 80px;
+  }
+
+  .prana-benefits-item {
+    margin-bottom: 20px;
+  }
+
+  .prana-info .col-lg-4:nth-child(2n + 2) .benefits-item {
+    border: none;
+    padding-right: 0;
+  }
+
+  .prana-benefits-content h3 {
+    font-size: 20px;
+  }
+
+  .prana-about-us {
+    padding: 50px 0 100px;
+  }
+
+  .prana-about-content {
+    margin-bottom: 30px;
+  }
+
+  .prana-about-content-body {
+    margin-bottom: 30px;
+  }
+
+  .about-list-item .icon-box {
+    margin-right: 15px;
+  }
+
+  .about-list-item .icon-box img {
+    max-width: 34px;
+    padding: 0 5px 5px 0;
+  }
+
+  .about-list-content {
+    width: calc(100% - 49px);
+  }
+
+  .prana-about-us-images {
+    max-width: 630px;
+    margin: 0 auto;
+  }
+
+  .prana-about-circle-logo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .prana-about-us-images .prana-about-circle-logo img {
+    max-width: 70px;
+  }
+
+  .our-prana-packages {
+    padding: 50px 0;
+  }
+
+  .our-prana-packages::before {
+    top: -155px;
+    background-size: 100% auto;
+  }
+
+  .our-prana-packages::after {
+    background-size: 50% auto;
+  }
+
+  .our-prana-service-item .icon-box {
+    left: 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .our-prana-service-item .icon-box img {
+    max-width: 46px;
+  }
+
+  .our-prana-service-body {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .our-prana-service-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .our-prana-service-btn a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .our-prana-service-btn a img {
+    max-width: 14px;
+  }
+
+  .our-prana-service-btn {
+    margin-top: 10px;
+  }
+
+  .our-prana-service-btn a {
+    font-size: 22px;
+  }
+
+  .our-prana-service-btn a i {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .bg-section {
+    margin-top: -250px;
+  }
+
+  .our-approach {
+    padding: 50px 0 70px;
+  }
+
+  .our-approach-item {
+    padding: 30px 15px;
+  }
+
+  .our-approach-item .icon-box img {
+    max-width: 44px;
+  }
+
+  .our-approach-content h3 {
+    font-size: 16px;
+  }
+
+  .prana-milestone {
+    padding: 50px 0 100px;
+    overflow: hidden;
+  }
+
+  .prana-milestone::before {
+    background-size: 20% auto;
+  }
+
+  .prana-milestone::after {
+    width: 130px;
+  }
+
+  .prana-milestone-body {
+    margin-bottom: 30px;
+  }
+
+  .holistic-nutrition {
+    padding: 50px 0 100px;
+  }
+
+  .holistic-nutrition-images {
+    background-position: right -30px bottom;
+    padding: 0 0px 40px 0;
+  }
+
+  .holistic-nutrition-img-1 img {
+    aspect-ratio: 1 / 0.95;
+  }
+
+  .holistic-nutrition-img-2 img {
+    aspect-ratio: 1 / 0.78;
+  }
+
+  .holistic-nutrition-img-3 img {
+    aspect-ratio: 1 / 1.61;
+  }
+
+  .holistic-nutrition-img-4 img {
+    aspect-ratio: 1 / 0.5;
+  }
+
+  .holistic-nutrition-content {
+    margin-bottom: 30px;
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-header .icon-box {
+    left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .holistic-nutrition-accordion
+    .accordion-item
+    .accordion-header
+    .icon-box
+    img {
+    max-width: 30px;
+  }
+
+  .holistic-nutrition-accordion .accordion-header .accordion-button {
+    font-size: 20px;
+    padding: 15px 20px 15px 90px;
+  }
+
+  .holistic-nutrition-accordion .accordion-button:not(.collapsed) {
+    padding: 30px 20px 30px 90px;
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-body {
+    background-color: var(--primary-color);
+    padding: 0px 20px 20px 20px;
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-button::after,
+  .holistic-nutrition-accordion
+    .accordion-item
+    .accordion-button.collapsed::after {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    transform: translate(-20px, -50%);
+  }
+
+  .holistic-nutrition-accordion
+    .accordion-item
+    .accordion-button.collapsed::after {
+    transform: translate(-20px, -50%) rotate(-180deg);
+  }
+
+  .our-pricing {
+    padding: 50px 0 70px;
+  }
+
+  .our-pricing-content {
+    margin-bottom: 60px;
+  }
+
+  .pricing-item {
+    padding: 20px;
+  }
+
+  .our-pricing::before {
+    background: linear-gradient(
+      0deg,
+      rgba(2, 48, 71, 0) 30.13%,
+      rgba(0, 0, 0, 0.9) 100.06%,
+      #021c29 100.7%
+    );
+  }
+
+  .pricing-title h3 {
+    font-size: 24px;
+  }
+
+  .pricing-btn a {
+    font-size: 18px;
+    padding-right: 40px;
+  }
+
+  .pricing-btn a::before {
+    background-size: 14px auto;
+    width: 30px;
+    height: 30px;
+  }
+
+  .therapist-team {
+    padding: 50px 0 70px;
+  }
+
+  .team-image img {
+    aspect-ratio: 1 / 1.1;
+  }
+
+  .team-content h3 {
+    font-size: 20px;
+  }
+
+  /* .our-testimonial {
+    padding: 50px 0 100px;
+    background-position: bottom right;
+  } */
+
+  .testimonial-content {
+    margin-bottom: 30px;
+  }
+
+  .testimonial-item {
+    padding: 20px;
+  }
+
+  .testimonial-header .testimonial-rating {
+    margin-bottom: 15px;
+  }
+
+  .testimonial-content {
+    margin-bottom: 20px;
+  }
+
+  .testimonial-btn {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .our-blog {
+    padding: 50px 0 70px;
+  }
+
+  .post-featured-image {
+    margin-bottom: 20px;
+  }
+
+  .article-meta {
+    margin-bottom: 15px;
+  }
+
+  .post-item-body h2 {
+    font-size: 20px;
+  }
+
+  .post-item-body {
+    margin-bottom: 15px;
+  }
+
+  /* footer.main-footer {
+    padding: 50px 0;
+    background-size: auto;
+  } */
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  .about-footer {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about-footer-content p {
+    margin-right: 0px;
+  }
+
+  .about-footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 30px;
+  }
+
+  .footer-links ul li {
+    margin-right: 12px;
+  }
+
+  .footer-links.service-links {
+    width: calc(55% - 15px);
+  }
+
+  .footer-links.social-links {
+    width: calc(25% - 15px);
+    text-align: left;
+  }
+
+  .footer-links.working-links {
+    width: calc(75% - 15px);
+  }
+
+  .footer-links.footer-contact-details {
+    width: 100%;
+  }
+
+  .page-header {
+    padding: 150px 0;
+  }
+
+  .page-header::after {
+    background-size: 50% auto;
+  }
+
+  /* .about-mainpage-header-box h1 {
+    font-size: 56px;
+  } */
+
+  .about-mainpage-header-box ol li.breadcrumb-item {
+    font-size: 16px;
+  }
+
+  .about-mainpage {
+    padding: 50px 0 100px;
+  }
+
+  .about-mainpage-content {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .about-mainpage-content-body {
+    margin-bottom: 30px;
+  }
+
+  .about-mainpage-content-item {
+    padding: 15px;
+  }
+
+  .about-mainpage-content-box {
+    padding: 20px;
+  }
+
+  .page-about-box-title {
+    margin-bottom: 15px;
+  }
+
+  .page-about-img-1 img {
+    aspect-ratio: 1 / 0.6;
+  }
+
+  .page-about-img-2 {
+    left: auto;
+    right: 0;
+    text-align: right;
+    z-index: 2;
+    max-width: 30%;
+  }
+
+  .about-testimonial-box {
+    width: 75%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px 0 0 0;
+    z-index: 1;
+  }
+
+  .about-testimonial-item p {
+    font-size: 20px;
+  }
+
+  .about-testimonial-btn {
+    transform: translateX(-20%);
+  }
+
+  .about-icon-box-list {
+    padding: 50px 0 70px;
+    border-radius: 0 30px 0 0;
+    z-index: 2;
+  }
+
+  .about-icon-list-item .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .about-icon-list-item .icon-box img {
+    max-width: 60px;
+  }
+
+  .about-icon-list-content h3 {
+    font-size: 20px;
+  }
+
+  .our-rehabilitation {
+    padding: 50px 0 70px;
+    z-index: 2;
+  }
+
+  .therapy-rehabilitation-header {
+    padding: 20px;
+  }
+
+  .therapy-rehabilitation-content {
+    margin-bottom: 20px;
+  }
+
+  .therapy-rehabilitation-btn a {
+    width: 40px;
+    height: 40px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .therapy-rehabilitation-title {
+    width: calc(100% - 60px);
+  }
+
+  .therapy-rehabilitation-title h3 {
+    font-size: 24px;
+  }
+
+  .therapy-rehabilitation-body {
+    padding: 20px;
+  }
+
+  .therapy-rehabilitation-list {
+    padding: 15px;
+  }
+
+  .therapy-process {
+    padding: 50px 0 100px;
+    background-size: 50% auto;
+    z-index: 2;
+  }
+
+  .therapy-process-item:hover {
+    transform: translateX(0px);
+  }
+
+  .therapy-process-item .icon-box {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .therapy-process-item .icon-box img {
+    max-width: 40px;
+  }
+
+  .therapy-process-item-content {
+    width: calc(100% - 100px);
+  }
+
+  .therapy-process-content {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  /* .our-video {
+    padding: 50px 0 100px;
+    z-index: 2;
+  } */
+
+  .our-video-content {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .video-play-button img {
+    max-width: 130px;
+  }
+
+  .process-steps {
+    background-position: center center;
+    background-size: 140% auto;
+    padding: 50px 0 100px;
+  }
+
+  .process-steps-line {
+    padding-top: 70px;
+  }
+
+  .process-step-box {
+    padding-top: 60px;
+  }
+
+  .process-step-no h2 {
+    font-size: 94px;
+  }
+
+  .process-step-content h3 {
+    font-size: 20px;
+  }
+
+  .process-step-content p {
+    font-size: 14px;
+  }
+
+  .page-about-faqs {
+    padding: 50px 0 100px;
+  }
+
+  .about-faq-section .accordion-header .accordion-button {
+    padding: 15px 45px 15px 15px;
+  }
+
+  .about-faq-section .accordion-item .accordion-body {
+    padding: 15px 45px 15px 15px;
+  }
+
+  .about-faq-section .accordion-item .accordion-button::after,
+  .about-faq-section .accordion-item .accordion-button.collapsed::after {
+    right: 15px;
+  }
+
+  .cta-box {
+    padding: 50px 0 100px;
+  }
+
+  .hbot-services {
+    padding: 50px 0 100px;
+  }
+
+  .hbot-services-list {
+    margin-bottom: 30px;
+  }
+
+  .hbot-services-list .hbot-services-list-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .hbot-services-list-item .hbot-services-title h3 {
+    font-size: 20px;
+  }
+
+  .hbot-services-img {
+    text-align: center;
+  }
+
+  .hbot-services-box-content {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .page-services {
+    padding: 50px 0 70px;
+  }
+
+  /* .service-sidebar {
+    position: initial;
+    margin-bottom: 30px;
+  } */
+
+  .service-catagery-list ul li a {
+    padding: 15px 35px 15px 15px;
+  }
+
+  .service-catagery-list ul li a::after {
+    transform: translate(-15px, -50%);
+  }
+
+  .working-hours h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .working-hours ul li a {
+    padding: 15px 15px 15px 45px;
+  }
+
+  .working-hours ul li a::after {
+    transform: translate(15px, -50%);
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+  }
+
+  /* .sidebar-cta-image img {
+    aspect-ratio: 1 / 0.5;
+  } */
+
+  .sidebar-cta-item .icon-box {
+    margin-bottom: 20px;
+  }
+
+  .sidebar-cta-content h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar-cta-content p {
+    font-size: 20px;
+  }
+
+  .service-entry {
+    margin-bottom: 30px;
+  }
+
+  .service-entry ul li {
+    padding-left: 25px;
+  }
+
+  .service-entry ul li:before {
+    background-size: 6px auto;
+    width: 18px;
+    height: 18px;
+  }
+
+  .page-blog {
+    padding: 50px 0 100px;
+  }
+
+  .page-blog .blog-item {
+    height: calc(100% - 30px);
+    margin-bottom: 30px;
+  }
+
+  .page-pagination {
+    margin-top: 10px;
+  }
+
+  .page-single-post {
+    padding: 50px 0 100px;
+  }
+
+  .post-image {
+    margin-bottom: 20px;
+  }
+
+  .post-entry blockquote {
+    background-position: left 30px top 35px;
+    padding: 25px 25px 25px 90px;
+    margin-bottom: 20px;
+  }
+
+  .post-entry blockquote p {
+    font-size: 18px;
+  }
+
+  .post-entry h2 {
+    font-size: 42px;
+  }
+
+  .post-entry ul li {
+    font-size: 16px;
+  }
+
+  .post-tag-links {
+    padding: 0 0px;
+  }
+
+  .post-tags {
+    margin-bottom: 10px;
+  }
+
+  .post-social-sharing ul {
+    text-align: left;
+  }
+
+  .post-tags .tag-links a {
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+
+  .page-team {
+    padding: 50px 0 70px;
+  }
+
+  .page-team-single {
+    padding: 50px 0 100px;
+  }
+
+  .team-member-image {
+    margin-bottom: 30px;
+  }
+
+  .team-member-details {
+    margin-left: 0px;
+  }
+
+  .member-detail-header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .member-detail-header .member-detail-title h2 {
+    font-size: 26px;
+  }
+
+  .member-detail-content {
+    margin-bottom: 20px;
+  }
+
+  .page-team-single .team-member-image img {
+    aspect-ratio: 1 / 0.85;
+  }
+
+  .member-detail-body {
+    gap: 30px;
+  }
+
+  .member-detail-body .member-detail-list-item {
+    width: calc(50% - 15px);
+  }
+
+  .member-detail-list-item .icon-box {
+    margin-right: 15px;
+  }
+
+  .member-detail-list-item .icon-box::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .member-detail-list-item .icon-box img {
+    max-width: 40px;
+  }
+
+  .member-detail-list-content {
+    width: calc(100% - 65px);
+  }
+
+  .member-detail-list-content h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .member-detail-list-content p {
+    font-size: 16px;
+  }
+
+  .about-icon-box-list.member-expertise {
+    border-radius: 30px 30px 0 0;
+  }
+
+  .member-personal-info {
+    padding: 50px 0 100px;
+  }
+
+  .member-info-content {
+    margin-bottom: 30px;
+  }
+
+  .member-working-hour {
+    margin-left: 0;
+  }
+
+  .member-working-hour-box {
+    padding: 20px;
+  }
+
+  .member-working-hour .section-title h2 {
+    font-size: 32px;
+  }
+
+  .member-working-hour-list ul li span {
+    width: 55%;
+  }
+
+  .member-working-history {
+    padding: 50px 0 100px;
+  }
+
+  .member-working-history .member-contact-form {
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .member-contact-form .form-control {
+    padding: 10px 20px;
+  }
+
+  .member-working-history-content .working-history-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .working-history-item .working-history-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .member-winning-award {
+    padding: 50px 0 100px;
+  }
+
+  .page-video-gallery {
+    padding: 50px 0 70px;
+  }
+
+  .video-gallery-image img {
+    aspect-ratio: 1 / 0.8;
+  }
+
+  .page-faqs {
+    padding: 50px 0 100px;
+  }
+
+  .page-faqs-images {
+    margin-bottom: 30px;
+  }
+
+  .page-faqs-images img {
+    aspect-ratio: 1 / 0.95;
+  }
+
+  .contact-information {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .contact-info-list {
+    margin-bottom: 30px;
+  }
+
+  .contact-info-item .icon-box img {
+    max-width: 26px;
+  }
+
+  .contact-info-item .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .contact-info-content h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  /* .contact-us-form .section-title h2 {
+    font-size: 26px;
+  } */
+
+  .contact-us-form .form-control {
+    padding: 15px;
+  }
+
+  .google-map-iframe iframe,
+  .google-map-iframe {
+    height: 500px;
+  }
+
+  .contact-faqs {
+    padding: 50px 0 100px;
+  }
+
+  .contact-faqs-content {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .page-book-appointment {
+    padding: 50px 0 100px;
+  }
+
+  .booking-process {
+    padding: 50px 0 100px;
+  }
+
+  .booking-process-item::before {
+    top: calc(50% - 65px);
+    width: 120%;
+  }
+
+  .booking-process-no h3 {
+    font-size: 24px;
+  }
+
+  .booking-process-item .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .error-page {
+    padding: 50px 0 100px;
+  }
+
+  .error-page-image {
+    margin-bottom: 20px;
+  }
+
+  .error-page-content-heading {
+    margin-bottom: 20px;
+  }
+
+  .error-page-content-heading h2 {
+    font-size: 42px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* .section-row {
+    margin-bottom: 30px;
+  } */
+
+  /* .section-title {
+    margin-bottom: 20px;
+  } */
+
+  /* .section-title h1 {
+    font-size: 40px;
+  } */
+
+  /* .section-title h2 {
+    font-size: 30px;
+  } */
+
+  .topbar-contact-info ul li.hide-mobile {
+    display: none;
+  }
+
+  .topbar-contact-info ul li a img {
+    max-width: 16px;
+  }
+
+  .topbar-contact-info ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .hero-content-body .btn-default.btn-highlighted {
+    margin: 15px 0 0 0;
+  }
+
+  .prana-benefits-item {
+    border: none;
+    padding-right: 0;
+  }
+
+  .prana-benefits-content h3 {
+    font-size: 18px;
+  }
+
+  .prana-about-content-list {
+    margin-bottom: 30px;
+  }
+
+  .prana-about-circle-logo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .prana-about-us-images .prana-about-circle-logo img {
+    max-width: 60px;
+  }
+
+  .our-prana-packages::before {
+    display: none;
+  }
+
+  .our-prana-service-item .icon-box {
+    width: 60px;
+    height: 60px;
+  }
+
+  .our-prana-service-item .icon-box img {
+    max-width: 40px;
+  }
+
+  .our-prana-service-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .our-prana-service-btn a {
+    font-size: 18px;
+  }
+
+  .bg-section {
+    padding: 100px 0;
+    margin-top: -160px;
+  }
+
+  .our-approach-item {
+    padding: 20px 15px;
+  }
+
+  .our-approach-item .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .prana-milestone {
+    background: var(--secondary-color);
+  }
+
+  .prana-milestone::before {
+    display: none;
+  }
+
+  .prana-milestone::after {
+    display: none;
+  }
+
+  .holistic-nutrition-image {
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .holistic-nutrition-image::before {
+    background-size: 90% auto;
+    margin: 0;
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-header .icon-box {
+    left: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .holistic-nutrition-accordion
+    .accordion-item
+    .accordion-header
+    .icon-box
+    img {
+    max-width: 22px;
+  }
+
+  .holistic-nutrition-accordion .accordion-header .accordion-button {
+    font-size: 18px;
+    padding: 15px 15px 15px 70px;
+  }
+
+  .holistic-nutrition-accordion .accordion-button:not(.collapsed) {
+    padding: 20px 15px 20px 70px;
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-body {
+    padding: 0px 15px 15px 15px;
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-button::after,
+  .holistic-nutrition-accordion
+    .accordion-item
+    .accordion-button.collapsed::after {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    transform: translate(-15px, -50%);
+  }
+
+  .holistic-nutrition-accordion
+    .accordion-item
+    .accordion-button.collapsed::after {
+    transform: translate(-15px, -50%) rotate(-180deg);
+  }
+
+  .holistic-nutrition-accordion .accordion-item .accordion-body p {
+    font-size: 14px;
+  }
+
+  footer.main-footer {
+    padding: 50px 0 50px;
+  }
+
+  .about-footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links ul li {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .footer-links ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer-links.social-links {
+    width: 100%;
+  }
+
+  .footer-links.working-links {
+    width: 100%;
+  }
+
+  .footer-links.social-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .footer-links.social-links ul li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-contact-box {
+    display: block;
+  }
+
+  .footer-info-box {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer-info-box:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer-terms-condition ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+
+  /* .about-mainpage-header-box h1 {
+    font-size: 40px;
+  } */
+
+  .about-mainpage-content-list {
+    margin-bottom: 30px;
+  }
+
+  .page-about-box-title h3 {
+    font-size: 18px;
+  }
+
+  .page-about-body-content {
+    margin-top: 20px;
+  }
+
+  .page-about-img-2 {
+    position: relative;
+    max-width: 100%;
+    margin-top: -100px;
+    z-index: 1;
+  }
+
+  .about-testimonial-box {
+    width: 100%;
+    background: linear-gradient(0deg, #10455f 9.97%, #023047 100%);
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    padding: 20px 20px 70px;
+  }
+
+  .about-testimonial-item p {
+    font-size: 18px;
+  }
+
+  .about-testimonial-btn {
+    position: relative;
+    transform: translateX(0%);
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .about-icon-box-list {
+    padding: 50px 0 70px;
+    border-radius: 30px 30px 0 0;
+    margin-top: -95px;
+    z-index: 2;
+  }
+
+  .about-icon-list-item .icon-box::before {
+    bottom: -5px;
+    right: -5px;
+  }
+
+  .about-icon-list-item .icon-box img {
+    max-width: 50px;
+  }
+
+  .about-icon-list-content h3 {
+    font-size: 18px;
+  }
+
+  .therapy-rehabilitation-title h3 {
+    font-size: 22px;
+  }
+
+  .therapy-process-item {
+    display: block;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .therapy-process-item .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .therapy-process-item-content {
+    width: 100%;
+  }
+
+  .therapy-process-item-content h3 {
+    font-size: 20px;
+  }
+
+  .therapy-process-img-1 {
+    width: 100%;
+    padding: 55px 0;
+  }
+
+  .therapy-process-img-2 img {
+    max-width: 200px;
+    aspect-ratio: 1 / 1.01;
+  }
+
+  .therapy-process-img-3 img {
+    max-width: 200px;
+    aspect-ratio: 1 / 0.9;
+  }
+
+  .our-video::after {
+    width: 100%;
+  }
+
+  .our-video::before {
+    background-position: center center;
+    width: 100%;
+  }
+
+  .video-play-button a img {
+    max-width: 140px;
+  }
+
+  .process-steps {
+    background-image: none;
+  }
+
+  .process-steps-line {
+    padding-top: 0px;
+  }
+
+  .process-steps .col-lg-3:nth-last-child(even) .process-step-box {
+    margin-top: 0px;
+  }
+
+  .process-step-box {
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .process-steps .col-lg-3:last-child .process-step-box {
+    margin-bottom: 0;
+  }
+
+  .process-step-no h2 {
+    font-size: 74px;
+  }
+
+  .process-step-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .about-faq-section .accordion-header .accordion-button {
+    font-size: 18px;
+  }
+
+  .about-faq-section .accordion-item .accordion-button::after,
+  .about-faq-section .accordion-item .accordion-button.collapsed::after {
+    font-size: 18px;
+  }
+
+  .hbot-services-list {
+    margin-bottom: 0px;
+  }
+
+  .about-faq-section .accordion-item .accordion-body {
+    padding: 15px;
+  }
+
+  .hbot-services-list-item .hbot-services-content-body {
+    margin-bottom: 10px;
+  }
+
+  .hbot-services-list-item .hbot-services-title h3 {
+    font-size: 18px;
+  }
+
+  .hbot-services-list-item .hbot-services-btn a {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hbot-services-list-item .hbot-services-btn img {
+    max-width: 16px;
+  }
+
+  .hbot-services-img {
+    margin-bottom: 30px;
+  }
+
+  /* .sidebar-cta-image img {
+    aspect-ratio: 1 / 0.95;
+  } */
+
+  .sidebar-cta-item .icon-box {
+    width: 90px;
+    height: 90px;
+  }
+
+  .sidebar-cta-item .icon-box figure {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sidebar-cta-item .icon-box figure img {
+    max-width: 30px;
+  }
+
+  .sidebar-cta-content h3 {
+    font-size: 22px;
+  }
+
+  .service-single-image img {
+    aspect-ratio: 1 / 0.7;
+  }
+  /* 
+  .service-entry p {
+    margin-bottom: 15px;
+  } */
+
+  .service-entry ul {
+    gap: 15px;
+  }
+
+  .service-entry ul li {
+    width: 100%;
+  }
+
+  .post-image figure,
+  .post-image img {
+    aspect-ratio: 1 / 0.8;
+  }
+
+  .post-entry blockquote {
+    background-position: left 20px top 20px;
+    background-size: 35px;
+    padding: 55px 20px 20px 20px;
+  }
+
+  .post-entry h2 {
+    font-size: 30px;
+  }
+
+  .tag-links {
+    font-size: 20px;
+  }
+
+  .page-team-single .team-member-image img {
+    aspect-ratio: 1 / 1.15;
+  }
+
+  .member-detail-header .member-detail-title h2 {
+    font-size: 22px;
+  }
+
+  .member-detail-body {
+    gap: 20px;
+  }
+
+  .member-detail-body .member-detail-list-item {
+    width: 100%;
+  }
+
+  .about-icon-box-list.member-expertise {
+    margin-top: -50px;
+  }
+
+  .member-working-hour .section-title h2 {
+    font-size: 28px;
+  }
+
+  .member-working-hour-list ul li {
+    justify-content: start;
+  }
+
+  .member-working-hour-list ul li span {
+    display: none;
+  }
+
+  .member-working-hour-list ul li h3 {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .member-working-hour-list ul li p {
+    font-size: 16px;
+  }
+
+  .contact-info-item .icon-box img {
+    max-width: 22px;
+  }
+
+  .contact-info-content p {
+    font-size: 14px;
+  }
+
+  /* .contact-us-form .section-title h2 {
+    font-size: 22px;
+  } */
+
+  .google-map-iframe iframe,
+  .google-map-iframe {
+    height: 400px;
+  }
+
+  .booking-process-item {
+    width: calc(50% - 15px);
+  }
+
+  .booking-process-item::before {
+    display: none;
+  }
+
+  .booking-process-content h3 {
+    margin-bottom: 10px;
+  }
+
+  .error-page-image img {
+    max-width: 100%;
+  }
+
+  .error-page-content-heading h2 {
+    font-size: 30px;
+  }
+}

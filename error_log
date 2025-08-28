@@ -1,0 +1,150 @@
+[26-Aug-2025 08:31:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:31:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:32:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/contact_submit.php(5): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:32:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/contact_submit.php(5): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:32:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/contact_submit.php(5): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:32:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/contact_submit.php(5): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:32:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/contact_submit.php(5): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:32:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/contact_submit.php(5): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:35:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:35:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:35:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:35:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
+[26-Aug-2025 08:35:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'fsrqglou_db_prana'@'localhost' (using password: YES) in /home1/hbot/public_html/beta/database.php:10
+Stack trace:
+#0 /home1/hbot/public_html/beta/database.php(10): mysqli->__construct('localhost', 'fsrqglou_db_pra...', Object(SensitiveParameterValue), 'fsrqglou_db_pra...')
+#1 /home1/hbot/public_html/beta/live_longer_appointment.php(2): include('/home1/hbot/pub...')
+#2 {main}
+  thrown in /home1/hbot/public_html/beta/database.php on line 10
