@@ -126,20 +126,20 @@
                         <label for="name" class="form-label">Name</label>
                         <input type="text" id="name" name="name" class="form-control AlphaOnly"
                             placeholder="Your full name">
-                        <small class="text-danger" id="nameError"></small>
+                        <small class="text-danger1" id="nameError" style="color: #ffff;"></small>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-0">
                         <label for="phone" class="form-label">Phone</label>
                         <input type="tel" id="phone" name="phone" class="form-control NumberOnly" maxlength="10"
                             placeholder="+91 98765 43210">
-                        <small class="text-danger" id="phoneError"></small>
+                        <small class="text-danger1" id="phoneError" style="color: #ffff;"></small>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-0">
                         <label for="slot" class="form-label">Preferred Date & Time</label>
-                        <input type="datetime-local" id="slot" name="slot" class="form-control">
-                        <small class="text-danger" id="slotError"></small>
+                        <input type="datetime-local" id="slot" name="slot" class="form-control" min="09:00" max="21:59">
+                        <small class="text-danger1" id="slotError" style="color: #ffff;"></small>
                     </div>
                     <div class="col-lg-3 mt-4">
                         <button type="submit" class="btn-default"><span>Click here to live longer </span></button>
@@ -228,10 +228,7 @@
 
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
             </div>

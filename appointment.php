@@ -147,7 +147,7 @@
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="time" name="time" class="form-control" id="time">
+                                    <input type="time" name="time" class="form-control" id="time"  min="09:00" max="21:59">
                                     <div class="help-block text-danger" id="error_time"></div>
                                 </div>
 
